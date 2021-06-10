@@ -15,7 +15,7 @@ namespace DataStructuresInCS
             }
             while (!stack.Empty)
             {
-                Console.WriteLine($"{stack.Pop()}");
+                Console.Write($"{stack.Pop()}");
             }
             
         }
